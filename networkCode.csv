@@ -1,0 +1,42 @@
+﻿name,Network Properties,Category
+f_01_averageLocalClusteringCoeff,Median local clustering coefficient,transitivity
+f_02_averageLocalClusteringCoeffWeighted,Median weighted local clustering coefficient,transitivity
+f_03_globalClusteringCoeff,Global clustering coefficient,transitivity
+f_04_gdensity,Graph density,degree
+f_05_proportionSingletons,Proportion of nodes with degree 0,degree
+f_06_proportionEndpoints,Proportion of nodes with degree 1,degree
+f_07_meanDegree,Average degree,degree
+f_08_assortativityDegree,Assortativity of degrees,degree
+f_09_meanStrength,Average strength,degree
+f_10_straightness,Straightness,degree
+f_11_entropyDegreeDistribution,Average measurement of the heterogeneity of the network,degree
+f_12_ratioComponents,Number of components relative to network size,degree
+f_13_giantConnectedRatio,Evenness of component sizes,degree
+f_14_evennessComponentSize,Entropy of component size distribution,degree
+f_15_CentralPointDominance,Central point dominance,distances
+f_16_meanEccentricity,Maximum shortest distance from a node to all other nodes,distances
+f_17_gdiameter,"Diameter, length of the longest distance between any pairs of vertices",distances
+f_18_meanDiameterComponents,Mean diameter of all components,distances
+f_19_globalEfficiency,Global efficiency,distances
+f_20_averageClosenessCentrality,Average closeness centrality,distances
+f_21_mot1,"A->B<-C, the binary in-tree.",motifs
+f_22_mot2,"A->B->C, the directed line.",motifs
+f_23_mot3,A<->B<-C.,motifs
+f_24_mot4,A<-B->C,motifs
+f_25_mot5,"A->B<-C, A->C.",motifs
+f_26_mot6,"A<-B->C, A<->C.",motifs
+f_27_mot7,A<->B->C.,motifs
+f_28_mot8,A<->B<->C.,motifs
+f_29_mot9,"A->B->C, A<->C.",motifs
+f_30_mot10,"A->B<-C, A<->C.",motifs
+f_31_mot11,"A->B<->C, A<->C.",motifs
+f_32_mot12,"A<->B<->C, A<->C",motifs
+f_33_reciprocity,"Reciprocity, proportion of mutual connections",reciprocity
+f_34_inoutCorrelation,Correlation between numbers of in and out edges for each vertex,reciprocity
+f_35_communitySizeEvenness,Evenness of community sizes,communities
+f_36_numberCommonCommunities,Number of common communities,communities
+f_37_CommunityRatio,Ratio of the two largest communities,communities
+f_38_modularity,Modularity,communities
+f_39_meanFST,Mean Fst,communities
+f_40_maxFST,Max Fst,communities
+f_41_minFST,Min Fst,communities
